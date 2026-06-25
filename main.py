@@ -7,7 +7,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy.orm import Session
 
-from app import crud
+import crud
 from app.config import get_settings
 from app.database import init_db
 from app.dependencies import get_db
