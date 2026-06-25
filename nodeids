@@ -1,0 +1,6 @@
+[
+  "tests/test_api.py::test_category_filter",
+  "tests/test_api.py::test_create_and_list_products",
+  "tests/test_pagination.py::test_category_cursor_pagination_is_stable",
+  "tests/test_pagination.py::test_cursor_pagination_does_not_duplicate_or_skip_when_new_rows_arrive"
+]
